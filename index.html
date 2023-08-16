@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campbells</title>
+  <link rel="shortcut icon" href="assets/icons/favicon.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/styles/styles.css">
+
+  <script>
+    var toggle = function() {
+      var elements = document.querySelectorAll('.css-disabled-items');
+      var button = document.getElementById('css-show-button');
+
+      elements.forEach(function(element) {
+        if (element.style.display === 'none' || element.style.display === '') {
+          element.style.display = 'flex';
+          button.textContent = 'Show Less';
+        } else {
+          element.style.display = 'none';
+          button.textContent = 'Show More';
+        }
+      });
+    }
+  </script>
+  <style>
+    .css-disabled-items{
+    display: none ;
+    }
+  </style>
+</head>
+<body>
+  <!-- 1st nav -->
+  <header>
+
+    <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between css-bg css-first-nav">
+        <div class="container-xl">
+          <ul class="navbar-nav d-flex justify-content-start">
+            <li class="nav-item css-r-ads">
+              <img class="css-img-size" src="assets/images/Swanson_Logo_Secondary-1-300x255.png" alt="">
+            </li>
+            <li class="nav-item css-r-ads">
+              <img class="css-img-size" src="assets/images/Prego_logo_brands_nav.png" alt="">
+            </li>
+            <li class="nav-item css-r-ads">
+              <img class="css-img-size" src="assets/images/pace.png" alt="">
+            </li>
+            <li class="nav-item css-r-ads">
+              <img class="css-img-size" src="assets/images/V8_Core_standard_positive_brandpages.png" alt="">
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item my-2 my-lg-0">
+                <a class="nav-link css-comp-name me-2" href="">Campbell Soup Company</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-danger rounded-5 px-3 css-red-button me-3">Sign Up</button>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <!-- 2nd Nav -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light pb-0">
+      <div class="container-xl">
+        <a class="navbar-brand" href="#"><img class="css-main-logo" src="assets/icons/Campbells_Script_Red.webp" alt="Logo" height="35"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link css-list-items" href="#">ALL PRODUCTS</a><hr>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link css-list-items" href="#">RECIPES</a><hr>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link css-list-items" href="#">FAQS</a><hr>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link css-list-items" href="#">WHERE TO BUY</a><hr>
+            </li>
+          </ul>
+        </div>
+        <img class="css-search-icon" src="assets/icons/640px-Vector_search_icon.svg.png" alt="">
+      </div>
+    </nav>
+
+  </header>
+  <section class="main">
+    <div class="css-background d-flex justify-content-center">
+        <div class="css-white-trans col-md-6 text-center">
+          <h2 class="css-summer"><b>Say Hello to Summer!</b> </h>
+          <p class="css-summer-text">Fresh, unforgettable recipes with easy prep that you’ll savor all summer long.</p>
+          <button type="button" class="btn btn-danger rounded-5 px-5 css-red-button">Let's get Cooking</button>
+        </div>
+    </div>
+  </section>
+
+<!-- ########################################### SECTION BRANDS ############################################# -->
+
+  <section class="brands">
+    <div class="container-xxl">
+      <div class="css-brandsection">
+        <h2 class="css-summer css-brandheader text-center">Our Brands</h2>
+        <div class=" css-grid row align-items-center justify-content-center">
+          <div class="col-6 col-lg-4 col-xl-2 css-grid-brands p-5">
+            <img src="assets/images/grid-items/img1.png" alt="">
+          </div>
+          <div class="col-6 col-lg-4 col-xl-2 css-grid-brands p-5">
+            <img src="assets/images/grid-items/img2.png" alt="">
+          </div>
+          <div class="col-6 col-lg-4 col-xl-2 css-grid-brands p-5">
+            <img src="assets/images/grid-items/img3.png" alt="">
+          </div>
+          <div class="col-6 col-lg-4 col-xl-2 css-grid-brands p-5">
+            <img src="assets/images/grid-items/img4.png" alt="">
+          </div>
+          <div class="col-6 col-lg-4 col-xl-2 css-grid-brands p-5">
+            <img src="assets/images/grid-items/img5.png" alt="">
+          </div>
+          <div class="col-6 col-lg-4 col-xl-2 css-grid-brands p-5">
+            <img src="assets/images/grid-items/img6.png" alt="">
+          </div>
+          <div class="col-6 col-lg-4 col-xl-2 css-grid-brands p-5 css-disabled-items">
+            <img src="assets/images/grid-items/img7.png" alt="">
+          </div>
+          <div class="col-6 col-lg-4 col-xl-2 css-grid-brands p-5 css-disabled-items">
+            <img src="assets/images/grid-items/img8.png" alt="">
+          </div>
+          <div class="col-6 col-lg-4 col-xl-2 css-grid-brands p-5 css-disabled-items">
+            <img src="assets/images/grid-items/img9.png" alt="">
+          </div>
+        </div>
+        <div class="css-show-button-div-1 d-flex justify-content-center pb-5">
+          <button id="css-show-button" class="bg-white text-dark rounded-5 py-2 px-5 css-show-button" onclick="toggle()">Show More</button>
+        </div>
+      </div>
+      <!-- ############################################ RECIPES #################################### -->
+      <div class="css-reciepes">
+        <div class="container">
+          <div class="css-reciepes-body text-center">
+            <h2 class="css-summer"><b>Recipes for Summer</b> </h>
+            <p class="css-summer-text">View our easy prep recipes for an unforgettable summer!</p>
+          </div>
+          <div class="css-image-carousal">
+            <div class="css-image-flex-list">
+              <div class="css-flex-card">
+                <img src="assets/images/flex-image-cards/Chicken-BLT-Skillet-1-712x534.jpg" alt="" class="css-flex-image">
+                <div class="css-flex-textbox d-flex">
+                  <div class="css-flex-text ps-3 pt-3 fw-500">GREEK LEMON CHICKEN SKILLET</div>
+                  <div class="css-flex-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right css-arrowh" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="css-flex-card">
+                <img src="assets/images/flex-image-cards/Creamy-Garlic-Parmesan-Chicken_card-712x534.jpg" alt="" class="css-flex-image">
+                <div class="css-flex-textbox d-flex">
+                  <div class="css-flex-text ps-3 pt-3 fw-500">HONEY BBQ RIBS</div>
+                  <div class="css-flex-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right css-arrowh" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="css-flex-card">
+                <img src="assets/images/flex-image-cards/EasyBakedBeans-712x534.jpg" alt="" class="css-flex-image">
+                <div class="css-flex-textbox d-flex">
+                  <div class="css-flex-text ps-3 pt-3 fw-500">CHIMICHURRI STEAK WRAPS</div>
+                  <div class="css-flex-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right css-arrowh" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="css-flex-card">
+                <img src="assets/images/flex-image-cards/SquashCasserole-712x534.jpg" alt="" class="css-flex-image">
+                <div class="css-flex-textbox d-flex">
+                  <div class="css-flex-text ps-3 pt-3 fw-500">UNSTUFFED PEPPER SKILLET</div>
+                  <div class="css-flex-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right css-arrowh" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="css-flex-card">
+                <img src="assets/images/flex-image-cards/SteakWithChipotleCheeseSauce_card-712x534.jpg" alt="" class="css-flex-image">
+                <div class="css-flex-textbox d-flex">
+                  <div class="css-flex-text ps-3 pt-3 fw-500">BIG BATCH FLANK STEAK</div>
+                  <div class="css-flex-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right css-arrowh" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="css-image-singlecard d-flex justify-content-center">
+              <div class="css-flex-card">
+                <img src="assets/images/flex-image-cards/Chicken-BLT-Skillet-1-712x534.jpg" alt="" class="css-flex-image">
+                <div class="css-flex-textbox d-flex">
+                  <div class="css-flex-text ps-3 pt-3 fw-500">GREEK LEMON CHICKEN SKILLET</div>
+                  <div class="css-flex-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right css-arrowh" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="css-swipe-button d-flex justify-content-center mb-3">
+            <button type="button" class="btn btn-outline-light rounded-5 p-1 me-3"></button>
+            <button type="button" class="btn btn-outline-light rounded-5 p-1"></button>
+          </div>
+          <div class="css-swipe-button-singlecard d-flex justify-content-center mb-3">
+            <button type="button" class="btn btn-outline-light rounded-5 p-1 me-3"></button>
+            <button type="button" class="btn btn-outline-light rounded-5 p-1 me-3"></button>
+            <button type="button" class="btn btn-outline-light rounded-5 p-1 me-3"></button>
+            <button type="button" class="btn btn-outline-light rounded-5 p-1 me-3"></button>
+            <button type="button" class="btn btn-outline-light rounded-5 p-1 me-3"></button>
+            <button type="button" class="btn btn-outline-light rounded-5 p-1"></button>
+          </div>
+          <div class="css-show-button-div-white d-flex justify-content-center pb-5">
+            <button class="text-white bg-red rounded-5 my-2 py-2 px-5 css-show-button">All Summer Recipes</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- ################################################## STORY SECTION ##########################################################-->
+
+      <div class="story-section">
+        <div class="container css-story-flex">
+          <div class="col-12 col-md-6 css-story-image">
+            <img src="assets/images/Condensed-Can-Wordmark.png" alt="">
+          </div>
+          <div class="col-12 col-md-6 css-story-text d-flex justify-content-center align-items-center">
+            <h2 class="css-summer"><b>Our Soup Comes With a Story</b> </h>
+            <p class="css-summer-text text-align-center px-4">Just peel off the lid and you’ll find the answers to every question you have in the kitchen tonight. Something easy? Something delicious for the whole family? We’ve kept in all the goodness you love, but updated our label with a new look for a modern era. It’s the same Campbell’s taste you love, like you’ve never seen before.</p>
+            <button class="bg-white text-dark rounded-5 py-2 px-5 css-show-button">Show More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ######################################################### FOOTER ############################################################# -->
+    
+  <footer>
+    <div class="container">
+      <div class="css-footer-body d-flex flex-column justify-content-center align-items-center">
+        <div class="css-footer-heading">
+          <p class="fw-bold">FOLLOW US</p>
+        </div>
+        <div class="css-footer-icon-list d-flex justify-content-center">
+          <img class="css-footer-icons" src="assets/images/social/2-removebg-preview.png" alt="">
+          <img class="css-footer-icons" src="assets/images/social/3-removebg-preview.png" alt="">
+          <img class="css-footer-icons" src="assets/images/social/4-removebg-preview.png" alt="">
+          <img class="css-footer-icons" src="assets/images/social/5-removebg-preview.png" alt="">
+          <img class="css-footer-icons" src="assets/images/social/6-removebg-preview.png" alt="">
+        </div>
+        <div class="css-news-letter css-footer-heading">
+          <p class="mt-5 fw-bold"><span class="fst-italic">CAMPBELL'S®</span>&nbsp;&nbsp;NEWSLETTER</p>
+        </div>
+        <div class="css-show-button-div-white d-flex justify-content-center pb-3">
+          <button class="text-dark btn-outline-black bg-transparent rounded-5 my-2 py-2 px-5 css-footer-heading d-flex align-items-center">
+            <span class="css-mail"><i class="bi bi-envelope"></i></span>
+            <span>&nbsp; Sign Up</span>
+          </button>
+        </div>
+        <table class="websites mb-4">
+          <tr>
+            <th class="fw-bold">CONNECT</th>
+            <th class="fw-bold">CAMPBELL SOUP COMPANY</th>
+            <th class="fw-bold">CAMPBELL'S BRAND</th>
+            <th class="">&nbsp;</th>
+            <th class="">&nbsp;</th>
+          </tr>
+          <tr>
+            <td class="css-table-items">Contact Us</td>
+            <td class="css-table-items">Corporation</td>
+            <td class="css-table-items">Swanson</td>
+            <td class="css-table-items">Goldfish</td>
+            <td class="css-table-items">Pop Secret</td>
+          </tr>
+          <tr>
+            <td class="css-table-items">FAQs</td>
+            <td class="css-table-items">Our History</td>
+            <td class="css-table-items">Prego</td>
+            <td class="css-table-items">Kettle Brand</td>
+            <td class="css-table-items">Pretzel Crisps</td>
+          </tr>
+          <tr>
+            <td class="css-table-items"></td>
+            <td class="css-table-items">Careers</td>
+            <td class="css-table-items">Pace</td>
+            <td class="css-table-items">Lance</td>
+            <td class="css-table-items">Snyder's Lance</td>
+          </tr>
+          <tr>
+            <td class="css-table-items"></td>
+            <td class="css-table-items">Inverstors</td>
+            <td class="css-table-items">V8</td>
+            <td class="css-table-items">Late July</td>
+            <td class="css-table-items">Snyder's of Hanover</td>
+          </tr>
+          <tr>
+            <td class="css-table-items"></td>
+            <td class="css-table-items">Newsroom</td>
+            <td class="css-table-items">Cape Cod Chips</td>
+            <td class="css-table-items">Pacific Foods</td>
+            <td class="css-table-items"></td>
+          </tr>
+          <tr>
+            <td class="css-table-items"></td>
+            <td class="css-table-items"></td>
+            <td class="css-table-items">Emerald Nuts</td>
+            <td class="css-table-items">Pepperidge Farm</td>
+            <td class="css-table-items"></td>
+          </tr>
+        </table>
+          <div class="accordion accordion-flush css-accordion" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <p class="css-footer-heading">CONNECT</p>
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Contact Us<br>FAQs</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  <p class="css-footer-heading">CAMPBELL SOUP COMPANY</p>
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Corporation <br>
+                  Our History <br>
+                  Careers <br>
+                  Investors <br>
+                  Newsroom</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  <p class="css-footer-heading mb-none">CAMPBELL'S BRANDS</p>
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Swanson <br>
+                  Prego <br>
+                  Pace <br>
+                  V8 <br>
+                  Cape Cod Chips <br>
+                  Emerald Nuts <br>
+                  Goldfish <br>
+                  Kettle Brand <br>
+                  Lance <br>
+                  Late July <br>
+                  Pacific Foods <br>
+                  Pepperidge Farm <br>
+                  Pop Secret <br>
+                  Pretzel Crisps <br>
+                  Snyder’s Lance <br>
+                  Snyder’s of Hanover</div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="credits">
+      <p class="css-credits-t1 d-flex justify-content-center">
+        TERMS OF USE |&nbsp;
+        INTEREST BASED ADS |&nbsp;
+        PRIVACY POLICY |&nbsp;
+        DO NOT SELL MY PERSONAL INFORMATION |&nbsp;
+        © 2023 Campbell Soup Company. All Rights Reserved.
+      </p>
+      <p class="css-credits-t2 d-flex justify-content-center">For screen reader problems with this website, please call 1-844-995-5545.</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

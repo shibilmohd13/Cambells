@@ -1,0 +1,501 @@
+@font-face {
+    font-family: 'proxima-nova';
+    src: url("assets/fonts/Proxima\ Nova\ Font.otf");
+}
+
+/* ######################################### header  ##############################################*/
+
+body{
+    font-family: 'proxima-nova';
+}
+.css-bg{
+    background-color: #dddddd
+}
+.css-img-size{
+    height: 25px;
+}
+.css-r-ads{
+    margin-right: 50px;
+}
+.css-r-ads:hover{
+    cursor: pointer;
+}
+.css-comp-name{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+}
+.css-comp-name:hover{
+    color: #b80000;
+}
+.css-red-button{
+    background-color: #b80000;
+    font-size: 13px;
+    font-weight: 600;
+}
+.css-red-button:hover{
+    background-color: #4b4b4b;
+    border-color: #4b4b4b;
+}
+.css-first-nav{
+    background-color: #dddddd;
+}
+.css-site-icon{
+    height: 40px;
+}
+
+.css-list-items{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #b80000;
+    padding: 26px;
+    border-bottom: 4px solid rgba(184, 0, 0,0);
+    margin-right:25px ;
+}
+.css-list-items:hover{
+    border-bottom: 4px solid rgba(184, 0, 0,1);
+    
+}
+.css-main-logo{
+    margin: 15px 0px;
+}
+.navbar-toggler-icon{
+    background-image: url("assets/icons/pngwing.com.png");
+    filter: invert(10%) sepia(91%) saturate(5355%) hue-rotate(11deg) brightness(89%) contrast(122%);
+}
+.navbar-toggler:focus,.navbar-toggler:active,.navbar-toggler-icon:focus{
+    outline: none;
+    box-shadow: none;
+}
+.css-search-icon{
+    position: absolute;
+    right: 100px;
+    height: 20px;
+    filter: invert(10%) sepia(91%) saturate(5355%) hue-rotate(11deg) brightness(89%) contrast(122%);
+}
+.css-search-icon:hover{
+    filter: none;
+}
+hr{
+    size: 1px;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+
+/* ######################################### section 1 ##############################################*/
+
+
+.css-background{
+    background: url('assets/images/Greek_Lemon_Chicken_Orzo_Skillet_homepage-hero-2048x768.jpg') no-repeat center  ;
+    background-size: cover;
+    height: 39em; 
+    color: white;
+    align-items:center;
+}
+.css-white-trans{
+    position: relative;
+    background-color: rgba(247, 247, 247, 0.733);
+    padding: 30px;
+    margin: 5px;
+}
+.css-summer{
+    font-size: 2.5rem;
+    font-weight: 900!important;
+    font-style: bold !important;
+    color: #000000;
+
+}
+.css-summer-text{
+    font-size: 1rem;
+    font-weight: 900;
+    color: #000000;
+    padding: 30px 0px 0px 0px;
+
+}
+.css-white-trans .css-red-button:hover{
+    background-color: #b80000;
+    border-color: #b80000;
+    cursor: pointer;
+}
+
+
+/* ######################################### section 2- brands ##############################################*/
+
+.brands{
+    background-color: rgb(234, 234, 234);
+    padding: 20px 7px;
+}
+
+.css-brandsection{
+    height: auto;
+    background-color: #ffffff;
+}
+.css-brandheader{
+    padding-top: 40px;
+    
+}
+.css-grid{
+    display: flex;
+    align-items: center;
+}
+.css-grid-brands{
+    height: 50px;
+    width: 200px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.css-grid-brands:hover{
+    cursor: pointer;
+}
+/* .css-disabled-items{
+    display: none;
+} */
+.css-grid-brands img{
+    width: 80px;
+}
+.css-show-button-div-1{
+    background-color: #ffffff;
+    display: flex; /*foooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo*/
+
+}
+
+
+.css-show-button{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+/* ######################################## RECIEPES ############################################### */
+
+.css-reciepes{
+    padding-top: 50px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    background: url('assets/images/RecipeBG.jpg') no-repeat center  ;
+    background-size: cover;
+}
+.css-reciepes .css-summer-text{
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+.css-reciepes .css-summer{
+    color: #ffffff;
+}
+.css-image-flex-list{
+    display: flex;
+    flex-direction: row;
+    column-gap: 35px;
+    justify-content: center;
+}
+.css-flex-card{
+    height: 260px;
+    width: 157px;
+    background-color: #ffffff;
+}
+.css-flex-card:hover{
+    cursor: pointer;
+}
+
+.css-flex-image{
+    height: 110px;
+    width: 157px;
+}
+
+.css-flex-text{
+    font-weight: 600;
+}
+
+.css-flex-arrow{
+    display: flex;
+    align-items: end;
+}
+
+.css-arrowh{
+    color: #b80000;
+    font-size: 40px;
+    margin-right: 15px;
+    font-weight: 700;
+    
+}
+
+.css-image-carousal{
+    margin-bottom: 40px;
+}
+
+.css-show-button-div-white .css-show-button{
+    background-color: transparent;
+    border-color: #ffffff;  
+}
+.css-show-button-div-white .css-footer-heading:hover{
+    background-color: #b80000 !important;
+    border-color: #b80000 !important;
+    color: #ffffff !important;
+    transition: 0.5s;  
+}
+.css-image-singlecard .css-flex-card{
+    width: 300px;
+    height: 300px;
+}
+.css-image-singlecard .css-flex-image{
+    width: 300px;
+    height: auto;
+}
+
+.css-swipe-button-singlecard{
+    display: none !important;
+}
+.css-image-singlecard{
+    display: none !important;
+
+}
+
+/* ############################################ STORY SECTION ##################################### */
+
+.story-section{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.css-story-image img{
+    width: 100%;
+}
+.css-story-text .css-summer-text{
+    font-weight: 400;
+    
+}
+.css-story-text .css-summer{
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.css-story-flex{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.story-section .css-summer-text{
+    line-height: 30px;
+    font-weight: 600;
+}
+.story-section .css-show-button{
+    margin-bottom: 20px;
+}
+
+/* ############################################### FOOTER ################################################# */
+footer{
+    background-color: rgb(234, 234, 234);
+    padding-top: 80px;
+
+}
+
+.css-footer-body{
+    background-color: rgb(234, 234, 234);    
+}
+
+.css-footer-heading{
+    font-size: small;
+    font-weight: 800;
+}
+
+.css-footer-icons{
+    height: 40px;
+    margin-left: 10px;
+    transition: 0.3s;
+
+}
+.css-footer-icons:hover{
+    cursor: pointer;
+    filter: invert(9%) sepia(83%) saturate(7121%) hue-rotate(3deg) brightness(87%) contrast(110%);
+
+}
+
+.css-mail{
+    font-size: 20px;
+}
+.css-table-items{
+    padding: 15px 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #424242 !important;
+}
+.css-table-items:hover{
+    color: #b80000!important;
+    cursor: pointer;
+
+}
+
+tr th{
+
+    font-size: 12px;
+    font-weight:900;
+    color: #000000 !important;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-style:unset;
+}
+
+.css-accordion{
+    width: 100%;
+    display: none;
+}
+.accordion-button,.accordion-body{
+    background-color: #EAEAEA;
+}
+
+.accordion-button {
+    background-color: #EAEAEA;
+}
+.accordion-button:not(.collapsed){
+    background-color: #EAEAEA;
+    color: #000000;
+}
+
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+}
+
+.accordion-button .css-footer-heading{
+    margin-bottom: 0px !important;
+}
+.accordion-body{
+    font-weight: 400;
+    line-height:30px;
+}
+
+
+
+
+/* /////////////////////////// CREDITS ////////////////////////////// */
+.credits{
+    background-color: #dddddd;
+    
+}
+.credits .css-credits-t1{
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+    text-align:center;
+}
+.css-credits-t1:hover{
+    cursor: pointer;
+}
+.credits .css-credits-t2{
+    margin: 0px;
+    padding: 10px 0px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+
+
+
+/*#######################################  Media Queries ######################################################### */
+
+@media(max-width:350px){
+    .css-image-singlecard .css-flex-card{
+        width: 200px;
+        height: 200px;
+    }
+    .css-image-singlecard .css-flex-image{
+        width: 200px;
+        height: auto;
+    }
+    .css-image-singlecard .css-flex-text{
+        padding-top: 5px!important;
+    }
+    .credits .css-credits-t2{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 992px) {
+    .css-first-nav{
+        display: none !important;
+    }
+    .css-main-logo{
+        margin: 0px 0px; 
+    }
+    .css-search-icon{
+        top: 20px;
+    }
+    .css-list-items:hover{
+        border-bottom: 4px solid rgba(184, 0, 0,0);
+    }
+    
+    hr{
+        display: block;
+    }
+    .css-background{
+        background: url("assets/images/Greek_Lemon_Chicken_Orzo_Skillet_homepage-mobile-599x830.jpg") no-repeat top center;
+        height: 45em;
+        background-size: cover;
+        align-items:end;
+
+    }
+    .css-image-flex-list{
+        display: none !important;
+    }
+    .css-swipe-button{
+        display: none !important;
+    }
+
+    .css-swipe-button-singlecard{
+        display: flex !important;
+    }
+    .css-image-singlecard{
+        display: flex !important;
+    
+    }
+    .websites{
+        display: none;
+    }
+    .css-accordion{
+        display: block;
+    }
+
+
+}
+@media (min-width: 992px) and (max-width: 1258px) {
+    .css-search-icon{
+        right: 30px;
+    }
+    
+}
+@media (min-width: 814px) and (max-width: 1214px) {
+    .css-grid-brands{
+        width:120px;
+    }
+    .css-grid-brands img{
+        width: 70px;
+    }
+    
+}
+
+@media (max-width: 770px) {
+    .css-story-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .story-section .css-summer{
+        font-size: 30px;
+        font-style: bold!important;
+    }
+    .story-section .css-summer-text{
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+
+    }
+}
