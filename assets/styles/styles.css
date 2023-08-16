@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'proxima-nova';
-    src: url("./styles.css");
+    src: url("../fonts/Proxima\ Nova\ Font.otf");
 }
 
 /* ######################################### header  ##############################################*/
@@ -61,7 +61,7 @@ body{
     margin: 15px 0px;
 }
 .navbar-toggler-icon{
-    background-image: url("assets/icons/pngwing.com.png");
+    background-image: url("../icons/pngwing.com.png");
     filter: invert(10%) sepia(91%) saturate(5355%) hue-rotate(11deg) brightness(89%) contrast(122%);
 }
 .navbar-toggler:focus,.navbar-toggler:active,.navbar-toggler-icon:focus{
@@ -89,7 +89,7 @@ hr{
 
 
 .css-background{
-    background: url('assets/images/Greek_Lemon_Chicken_Orzo_Skillet_homepage-hero-2048x768.jpg') no-repeat center  ;
+    background: url('../images/Greek_Lemon_Chicken_Orzo_Skillet_homepage-hero-2048x768.jpg') no-repeat center  ;
     background-size: cover;
     height: 39em; 
     color: white;
@@ -177,7 +177,7 @@ hr{
     padding-top: 50px;
     margin-top: 20px;
     padding-bottom: 30px;
-    background: url('assets/images/RecipeBG.jpg') no-repeat center  ;
+    background: url('../images/RecipeBG.jpg') no-repeat center  ;
     background-size: cover;
 }
 .css-reciepes .css-summer-text{
@@ -438,7 +438,7 @@ tr th{
         display: block;
     }
     .css-background{
-        background: url("assets/images/Greek_Lemon_Chicken_Orzo_Skillet_homepage-mobile-599x830.jpg") no-repeat top center;
+        background: url("../images/Greek_Lemon_Chicken_Orzo_Skillet_homepage-mobile-599x830.jpg") no-repeat top center;
         height: 45em;
         background-size: cover;
         align-items:end;
