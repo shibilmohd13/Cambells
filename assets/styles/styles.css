@@ -152,15 +152,15 @@ hr{
 .css-grid-brands:hover{
     cursor: pointer;
 }
-/* .css-disabled-items{
-    display: none;
-} */
+.css-disabled-items{
+    display: none;  /* DISABLED ITEMS */
+}
 .css-grid-brands img{
     width: 80px;
 }
 .css-show-button-div-1{
     background-color: #ffffff;
-    display: flex; /*foooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo*/
+    display: flex;
 
 }
 
